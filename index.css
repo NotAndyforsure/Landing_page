@@ -1,0 +1,330 @@
+header{
+    background:#1F2937;
+    flex:auto;
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    width:100vw;
+   
+     
+}
+
+
+main{
+    background:blue;
+    flex:auto;
+    height:1400px;
+}
+footer{
+    background:red;
+    flex:auto;
+    height:50px;
+    
+}
+
+
+body{
+    display:flex;
+    flex-direction:column;
+    margin:0px;
+    padding:0px;
+    font-family:'Roboto';
+
+   }
+
+/* main box model using flexbox */
+
+
+
+
+
+
+
+
+
+/* header styling */
+
+.logo{
+    flex:1 2 50px;
+    width:50vw;
+    font-size:24px;
+    color:#F9FAF8;
+    padding-left:60px;
+    
+    
+}
+
+
+.nav{
+   display:flex;
+    flex:1 1 300px;
+    width:50vw;
+   justify-content:end;
+   color: #e5e7eb;
+   font-size:18px;
+   padding-right:30px;
+
+}
+
+.nav div{
+    padding:20px; 
+    
+
+}
+
+.nav div a:hover{
+    color:white;
+}
+.nav div a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* header styling end */
+
+
+
+
+
+
+
+
+/*  main area syling start*/
+
+main{
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+
+/* sec 1 start */
+.sec1{
+    height:200px;
+    background-color:#1F2937;
+    display:flex;
+    justify-content:center;
+    padding-top:100px;
+padding-bottom:100px;
+}
+
+
+.seca{
+
+display:flex;
+flex-direction:row;
+
+
+
+}
+
+
+
+.sec11p1{
+    font-size:38px;
+    color:#F9FAF8;
+    font-weight:bolder;
+    flex:auto;
+    margin:0px;
+    
+}
+.sec11p2{
+    font-size:18px;
+    color:#E5E7EB;
+    flex:auto;
+    margin:0px;
+    
+    
+}
+
+.sec11b1{
+flex:auto;
+width:120px;
+background:#3882F6;
+border:none;
+height:30px;
+border-radius:6%;
+font-weight:bolder;
+color:#F9FAF8;
+font-size:17px;
+}
+
+.sec12{
+display:flex; 
+justify-content:center;
+align-items:center;
+flex:auto;
+background:grey;
+width:400px;
+margin-left:50px;
+
+color:#F9FAF8;
+}
+
+
+/* sec 1 end  */
+
+
+
+
+
+
+
+
+
+/* sec 2 start */
+.sec2{
+background-color:red;
+ height:200px;
+ display:flex;
+ flex-direction:column;
+ align-items: center;
+ padding-bottom:80px;
+ padding-top:30px;
+ background:white;
+
+}
+
+.sec2h{
+font-size:24px;
+font-weight:bolder;
+flex:auto;
+padding:15px;
+
+}
+
+.sec2cards{
+flex:auto;
+display:flex;
+flex-direction:row;
+align-items:center;
+padding-top:10px;
+
+}
+
+.sec2card1, .sec2card2, .sec2card3 , .sec2card3 , .sec2card4{
+    width:200px;
+}
+
+.sec2card1img, .sec2card2img, .sec2card3img , .sec2card3img, .sec2card4img{
+    width:100px;
+    height:100px;
+    border:3px solid blue;
+    border-radius:10%;
+    margin-left:20px;
+}
+
+
+
+/* sec2 end  */
+
+
+
+/* sec 3 start */
+.sec3{
+    background-color:#E5E7EB;
+    height:200px;
+    font-size:30px;
+    font-style:oblique;
+    padding-bottom:120px;
+    padding-top:70px;
+    color:#1F2937;
+    font-weight:100;
+    text-align:center;
+    font-family:'seriff'
+
+    
+}
+
+.quote{
+    margin-left:600px;
+    font-family:'Roboto';
+    font-weight:bold;
+    font-size:22px;
+    font-style:normal;
+}
+/* sec 3 end  */
+
+
+/* sec 4 start */
+.sec4{
+
+    background-color:white;
+    height:200px;
+    width:100vw;
+    padding-bottom:90px;
+    padding-top:70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+}
+.sec4card{
+   
+    display:flex;
+    width:800px;
+    height:150px;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+    padding-left:170px;
+    background:#3882F6
+
+
+}
+
+.sec4p{
+    width:90vw;
+}
+.sec4span1{
+   color: #F9FAF8;
+   font-size:28px;
+}
+
+.sec4span2{
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+.sec4b1{
+    width:30vw;
+    flex:auto;
+
+}
+
+
+
+.sec4b1 button{
+    background:#3882F6;
+    border:2px solid white;
+    border-radius:10%;
+    font-weight:bold;
+    color:white;
+    width:150px;
+height:50px;
+font-size:18px;
+
+}
+/* sec 4 end  */
+
+
+/* main area styling end  */
+
+/* footer styling start */
+
+footer{
+    text-align:center;
+    float:center;
+    color:#E5E7EB;
+    background:#1F2937;
+    padding-top:20px;
+}
+
+
+
+
