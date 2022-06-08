@@ -5,3 +5,5 @@ image of the challenge
 
 
 https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
+
+https://notandyforsure.github.io/Landing_page/
